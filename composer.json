@@ -10,9 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+    },
     "require-dev": {
-        "orchestra/testbench": "^4.0"
+        "orchestra/testbench": "^4.0",
+        "php-coveralls/php-coveralls": "2.2.x-dev"
     },
     "autoload": {
         "psr-4": {
