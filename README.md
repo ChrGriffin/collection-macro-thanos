@@ -1,3 +1,8 @@
+<p align="center">
+<img src="https://app.codeship.com/projects/d612f5d0-3c9d-0138-8ecb-768429ea54f6/status?branch=master" alt="Build Status">
+<img src='https://coveralls.io/repos/github/ChrGriffin/collection-macro-thanos/badge.svg?branch=master' alt='Coverage Status' />
+</p>
+
 # Laravel Collection Macro: Thanos
 
 This macro for Laravel Collections will randomly delete half the items in a collection.
