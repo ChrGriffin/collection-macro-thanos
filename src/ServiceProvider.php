@@ -9,8 +9,10 @@ class ServiceProvider extends LaravelServiceProvider
 {
     public function boot()
     {
-        Collection::macro('thanos', function () {
-            return $this;
-        });
+        if(!Collection::hasMacro('thanos')) {
+            Collection::macro('thanos', function () {
+                return (new Thanos($this))->snap();
+            });
+        }
     }
 }
