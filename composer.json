@@ -1,0 +1,14 @@
+{
+    "name": "chrgriffin/collection-macro-thanos",
+    "description": "Laravel Collection macro: randomly delete half of the items in a Collection.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Griffin",
+            "email": "christian.griffin@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
